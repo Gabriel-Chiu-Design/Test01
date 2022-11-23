@@ -1,0 +1,154 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1,h2,h3,p,a,select,input{
+    font-family: Sk-Modernist;
+  }
+  .web{
+    background:#303030;
+    padding: 120px;
+  }
+  .overlay{
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    background:#FFFDF5;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border-radius:40px;
+  } 
+  .type h1{
+    font-size: 64px;
+    font-weight: bold;
+    margin-top: 48px;
+  }
+  .type p{
+    margin-top: 8px;
+    text-align:center;
+  }
+  .photo{
+    width: 858px;
+    height: 214px;
+    object-fit:cover;
+    object-position: 0px 50%;
+    margin-top: 24px;
+  }
+  .info{
+    display:flex;
+    justify-content:space-between;
+    align-items:space-between;
+    height: 72px;
+    margin-top: 12px;
+  }
+  .galleryname{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+  }
+  .galleryname p,.gallerydate p,.reserve p{
+    color:black;
+    opacity:25%;
+  }
+  .galleryname h2{
+    font-size: 48px;
+    font-weight: bold;
+  }
+  .gallerydate{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+  }
+  .gallerydate h3{
+    font-size: 20px;
+  }
+  .reserve{
+    margin-top: 40px;
+    width: 858px;
+  }
+  .reserve p{
+    margin-bottom: 12px;
+  }
+  .bar{
+    display:flex;
+  }
+  .bar select{
+    width: 286px;
+    display:block;
+    padding: 12px 24px;
+    height: 48px;
+    border:0px;
+    background:#F5F5F5;
+    color: #7f7f7f;
+    font-size: 18px;
+  }
+  .btn{
+    display:flex;
+    justify-content:center;
+    margin: 132px auto 0px auto;
+  }
+  .btn input{
+    width: 207px;
+    border-radius:20px;
+    border:none;
+  }
+  .submit{
+    background:black;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 48px;
+    padding: 8px 24px;
+  }
+  .cancel{
+    color:white;
+    font-size: 20px;
+    background:#DEDEDE;
+    padding: 8px 24px;
+  }
